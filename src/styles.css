@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+textarea:focus-visible {
+  outline: none !important;
+}
+
+.editor {
+  border: 1px solid black;
+}
+
+.editor:focus-visible {
+  outline: none !important;
+  border: 2px solid red;
+}
+
+.editor:hover {
+  outline: none !important;
+  border: 2px solid red;
+}
